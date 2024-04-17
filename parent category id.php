@@ -1,4 +1,4 @@
-<?php>
+<?php
 // Function to get parent category ID from current child category
 function get_parent_category_id_shortcode() {
     // Get the current category object
@@ -19,3 +19,4 @@ function get_parent_category_id_shortcode() {
 
 // Register shortcode
 add_shortcode('parent_category_id', 'get_parent_category_id_shortcode');
+?>
